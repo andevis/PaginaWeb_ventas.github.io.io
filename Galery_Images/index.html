@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Imagenes</title>
+  <link rel="stylesheet" href="css/styles_index.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="navbar-logo">Galeria</a>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="../index.html" class="navbar-link">Inicio</a></li>
+        <li class="navbar-item"><a href="../index.html" class="navbar-link">Nosotros</a></li>
+        <li class="navbar-item"><a href="../index.html" class="navbar-link">Servicios</a></li>
+        <li class="navbar-item"><a href="../index.html" class="navbar-link">Portafolio</a></li>
+        <li class="navbar-item"><a href="../index.html" class="navbar-link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <h2>Galeria de Imágenes</h2>
+    <div class="gallery-container">
+      <div class="small-images">
+        <figure onclick="seleccionar(0)"><img class="image" src="img/1.jpg" alt=""></figure>
+        <figure onclick="seleccionar(1)"><img class="image" src="img/2.jpg" alt=""></figure>
+        <figure onclick="seleccionar(2)"><img class="image" src="img/3.png" alt=""></figure>
+        <figure onclick="seleccionar(3)"><img class="image" src="img/4.jpg" alt=""></figure>
+        <figure onclick="seleccionar(4)"><img class="image" src="img/5.jpg" alt=""></figure>
+        <figure onclick="seleccionar(5)"><img class="image" src="img/6.png" alt=""></figure>
+        <figure onclick="seleccionar(6)"><img class="image" src="img/7.jpg" alt=""></figure>
+        <figure onclick="seleccionar(7)"><img class="image" src="img/8.jpg" alt=""></figure>
+        <figure onclick="seleccionar(8)"><img class="image" src="img/9.jpg" alt=""></figure>
+        <figure onclick="seleccionar(9)"><img class="image" src="img/10.jpg" alt=""></figure>
+        <figure onclick="seleccionar(10)"><img class="image" src="img/11.jpg" alt=""></figure>
+        <figure onclick="seleccionar(11)"><img class="image" src="img/12.jpg" alt=""></figure>
+      </div>
+      <div class="large-image">
+        <figure>
+          <img src="img/1.jpg" alt="" id="box-imagen">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
